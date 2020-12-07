@@ -8,6 +8,6 @@ def product():
     return render_template("product.html")
 
 
-@app.route('/')
-def prod():
-    return render_template("product.html")
+@app.route('/login')
+def login():
+    return render_template("login.html")
